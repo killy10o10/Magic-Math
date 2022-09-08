@@ -1,10 +1,15 @@
+/* eslint-disable import/extensions */
 import './App.css';
+import Calculator from './components/Calculator';
 
 function App() {
   return (
-    <div className="App">
+    <section className="App">
       <h1>Math Magicians</h1>
-    </div>
+      <div className="calculator">
+        <Calculator />
+      </div>
+    </section>
   );
 }
 
