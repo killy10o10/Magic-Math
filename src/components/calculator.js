@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 import React, { useState } from 'react';
 import Button from './button';
 import calculate from '../logic/calculate';
