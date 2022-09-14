@@ -38,24 +38,27 @@ const Calculator = () => {
   };
   const { total, next, operation } = solution;
   return (
-    <div className="calc">
-      <input
-        type="text"
-        placeholder={0}
-        className="calc-input"
-        disabled
-        value={
-          (total === null ? '' : total)
-          + (operation === null || operation === undefined ? '' : operation)
-          + (next === null ? '' : next)
-        }
-      />
-      <div className="btn-contain">
-        {buttons.map((button) => (
-          <Button key={button} btnName={button} event={handleClick} />
-        ))}
+    <section className="calculator">
+      <h1 className="intro">Lets do some Math</h1>
+      <div className="calc">
+        <input
+          type="text"
+          placeholder={0}
+          className="calc-input"
+          disabled
+          value={
+            (total === null ? '' : total)
+            + (operation === null || operation === undefined ? '' : operation)
+            + (next === null ? '' : next)
+          }
+        />
+        <div className="btn-contain">
+          {buttons.map((button) => (
+            <Button key={button} btnName={button} event={handleClick} />
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
