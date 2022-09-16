@@ -42,10 +42,15 @@ To get a local copy up and running follow these simple example steps.
 - It can be used to make simple maths calculations.
 - It can be used to read a random math-related quote.
 
-## Author
+## Authors
+
+👤 **Soulemanou Babanou**
+- GitHub: [@soulemanou-software](https://gQuami_Killyithub.com/soulemanou-software)
+- Twitter: [@Mr_Babanou_237](https://twitter.com/Mr_Babanou_237)
+- LinkedIn: [@Mr_Babanou](https://www.linkedin.com/in/soulemanou-kunchiefuh-babanou-454099196/)
+
 
 👤 **Okine Kingsley**
-
 - GitHub: [@killy10o10](https://github.com/killy10o10)
 - Twitter: [@Quami_Killy](https://twitter.com/Quami_Killy)
 - Instagram: [quami_killy](https://www.instagram.com/quami_killy/)
